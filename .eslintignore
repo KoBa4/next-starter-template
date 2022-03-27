@@ -1,0 +1,7 @@
+docs/*
+devops/templates/*
+node_modules/
+/next.config.js
+/__tests__/snapshot.js
+/jest.setup.js
+/jest.config.js
