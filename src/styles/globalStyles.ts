@@ -9,7 +9,9 @@ const globalStyles = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    font-family: ${css`${fontFamily}`};
+    font-family: ${css`
+      ${fontFamily}
+    `};
     font-size: 16px;
     line-height: 1.5;
     color: #333;

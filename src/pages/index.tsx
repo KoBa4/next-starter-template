@@ -10,7 +10,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 style={{ marginInline: 'auto' }}>Next Starter Template</h1>
+      <h1
+        style={{ marginInline: 'auto', paddingTop: 'calc(50vh - 5rem)', textAlign: 'center' }}
+      >
+        Next Starter Template
+      </h1>
     </>
   )
 }

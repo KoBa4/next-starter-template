@@ -23,8 +23,8 @@ const reset = css`
   }
 
   /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-  ul[role="list"],
-  ol[role="list"] {
+  ul[role='list'],
+  ol[role='list'] {
     list-style: none;
   }
 

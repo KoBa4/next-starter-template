@@ -5,6 +5,8 @@ exports[`renders homepage unchanged 1`] = `
   style={
     Object {
       "marginInline": "auto",
+      "paddingTop": "calc(50vh - 5rem)",
+      "textAlign": "center",
     }
   }
 >

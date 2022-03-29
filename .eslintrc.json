@@ -9,7 +9,8 @@
     "airbnb-typescript",
     "prettier",
     "plugin:react-hooks/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:cypress/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -67,17 +68,19 @@
         "ignoreUrls": true
       }
     ],
-    "no-plusplus": [
-      "error",
-      { "allowForLoopAfterthoughts": true }
-    ],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "quotes": [
-      "error", "single",
+      "error",
+      "single",
       { "avoidEscape": true, "allowTemplateLiterals": true }
     ],
     "no-unused-vars": [
       "warn",
-      { "ignoreRestSiblings": false, "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+      {
+        "ignoreRestSiblings": false,
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
     ],
     "@typescript-eslint/semi": ["off"],
     "@typescript-eslint/naming-convention": [
@@ -91,7 +94,11 @@
     ],
     "@typescript-eslint/no-unused-vars": [
       "warn",
-      { "ignoreRestSiblings": false, "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+      {
+        "ignoreRestSiblings": false,
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
     ],
     "@typescript-eslint/no-explicit-any": [
       "error",

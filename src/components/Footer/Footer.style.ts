@@ -20,4 +20,3 @@ export const FooterLogo = styled.span`
   height: 1em;
   margin-left: 0.5rem;
 `
-

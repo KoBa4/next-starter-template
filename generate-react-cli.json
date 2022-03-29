@@ -16,11 +16,12 @@
         "component": "devops/templates/story-component/TemplateName.tsx",
         "story": "devops/templates/story-component/TemplateName.stories.tsx",
         "style": "devops/templates/story-component/TemplateName.style.ts",
+        "test": "devops/templates/story-component/TemplateName.test.tsx",
         "lazy": "devops/templates/story-component/index.ts"
       },
       "path": "src/components",
       "withStyle": true,
-      "withTest": false,
+      "withTest": true,
       "withStory": true,
       "withLazy": true
     }

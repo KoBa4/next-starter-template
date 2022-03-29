@@ -13,9 +13,7 @@ const DefaultLayout: NextPage = ({ children }) => {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Header />
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </ThemeProvider>
   )
